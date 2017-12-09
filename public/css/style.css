@@ -1,11 +1,36 @@
 .progress {
 	width: 90%;
 	float: right;
-	background-color: white;
+	background-color: transparent;
 	border-width: 0;
+	border-style: none;
 	
 }
 
 .progress-bar {
 	background-color: green;
+}
+
+	
+body {
+    background:url('../images/ralph1.png') no-repeat;
+    position: relative;
+    height: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: left; 
+    color: white;
+}
+
+.layer {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+.list-group-item {
+	background-color: transparent;
+	border-color: transparent;
 }
