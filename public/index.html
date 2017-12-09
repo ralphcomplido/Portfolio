@@ -1,10 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-Home
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>I'M RALPH COMPLIDO</h1>
+            <p>FULL STACK WEB DEVELOPER</p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>EXPERTISE</h2>
+        <br>
+        <h3>MY KNOWLEDGE LEVEL IN SOFTWARE</h3>
+        <br>
+        <ul class="list-group">
+            <li class="list-group-item">NODE.JS
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        70%</div>
+                </div>
+            </li>
+            <li class="list-group-item">EXPRESS.JS</li>
+            <li class="list-group-item">REACT.JS</li>
+            <li class="list-group-item">MYSQL</li>
+            <li class="list-group-item">JAVASCRIPT</li>
+            <li class="list-group-item">HTML & CSS</li>
+        </ul>
+    </div>
+    <div class="container bg-3 text-center">
+        <h2>PORTFOLIO</h2>
+        <h3>MY LATEST WORK. <span>SEE MORE. ></span></h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>2017-2018</p>
+                <p> UCLA CODING BOOTCAMP</p>
+                <p> Full Stack Web Developer </p>
+                <p>We develop large or small scale web applications and create full stack website using the newest software platforms. My expertise are database management using MySQL and Sequelize ORM, and using a web framework for Node.js which is Express. I have a high understanding on Javascript, HTML, and CSS.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>2011-2017</p>
+                <p>DAZZLINGROCK </p>
+                <p>Product Manager / Account Executive </p>
+                <p> I am the account executive for our online store of Dazzlingrock.com. Dazzlingrock also sells online on Amazon.com, Walmart, eBay, Wish.com and Groupon.com. My role is to process all orders for all the marketplace that we have using software technologies and database management systems. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <p> BS COMPUTER ENGINEERING</p>
+                <p>2009-2011</p>
+                <p>2 YEARS</p>
+                <p>Studied Bachelor of Science in Computer Engineering for 2 years. I learned logic and algorithms during the course and more on Mathematics. The full course is 4 years to finish.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+        	<div class="col-sm-6">
+        	<h2>CONTACT</h2>
+        	<p>Hi! If you have any questions about me, please contact me on my email or phone number below. I am so excited on hearing from you!</p>
+​
+<p>rcomplido.la.usa@gmail.com</p>
+<p>Tel: 1-323-286-5412</p>
+
+        	</div>
+            <form action="/action_page.php">
+            	<div class="form-group">
+                    <input type="name" class="form-control" id="pwd" placeholder="NAME">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL">
+                </div> 
+                <div class="form-group">
+                    <input type="subject" class="form-control" id="subject" placeholder="SUBJECT">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" id="message" placeholder="MESSAGE"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
