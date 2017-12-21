@@ -12,13 +12,24 @@
 }
 
 .navbar {
+
 	background-color: transparent;
 	color: white;
-	box-shadow: 0px 4px 27px 0px rgba(45,45,45,0.15);
+	box-shadow: 0px 4px 27px 0px rgba(4,4,4,0.15);
 	border-style: hidden;
 
 }
 
+.navbar-nav {
+	margin: auto;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul.navbar-nav > li {
+	left: 200px;
+}
 	
 body {
     background:url('../images/ralph1.png') no-repeat;
