@@ -1,139 +1,205 @@
 .progress {
-	width: 90%;
-	float: right;
-	background-color: transparent;
-	border-width: 0;
-	border-style: none;
-	
+    width: 90%;
+    float: right;
+    background-color: transparent;
+    border-width: 0;
+    border-style: none;
 }
 
 .progress-bar {
-	background-color: rgba(0, 214, 70, 1);
+    background-color: rgba(0, 214, 70, 1);
 }
 
 .navbar {
 
-	background-color: transparent;
-	color: white;
-	box-shadow: 0px 4px 27px 0px rgba(4,4,4,0.15);
-	border-style: hidden;
-
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 4px 27px 0px rgba(4, 4, 4, 0.15);
+    border-style: hidden;
 }
 
 .navbar-nav {
-	margin: auto;
-	
-	padding-top: 10px;
-	padding-bottom: 10px;
+    margin: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-ul.navbar-nav > li {
-	left: 200px;
+ul.navbar-nav>li {
+    left: 200px;
 }
-	
+
 body {
-    background:url('../images/ralph1.png') no-repeat;
+    background: url('../images/ralph1.png') no-repeat;
     position: relative;
     height: 100%;
     background-size: contain;
     background-attachment: fixed;
-    background-position: left; 
+    background-position: left;
     color: white;
     font-family: 'Nunito Sans', sans-serif;
     text-transform: uppercase;
-
+    margin: 0;
+    padding: 0;
 }
 
 .layer {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .jumbotron {
-	background-color: transparent;
-	
+    background-color: transparent;
 }
 
-h1, h2 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	text-align: justify;
-
-}
-h1 {
-	font-size: 90px;
-	margin: auto;
-	width: 40%;
-	
-}
+h1,
 h2 {
-	font-size: 45px;
-	margin: auto;
-	width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
 
+h1 {
+    font-size: 90px;
+    margin: auto;
+    width: 40%;
+}
+
+h2 {
+    font-size: 45px;
+    margin: auto;
+    width: 50%;
 }
 
 .list-group-item {
-	background-color: transparent;
-	border-color: transparent;
-
-
-
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.list-group, .heading {
-	margin: auto;
-	width: 1080px;
-
-
+.list-group,
+.heading {
+    margin: auto;
+    width: 1080px;
 }
 
 .expertise {
-background:url('../images/laptop.jpg') no-repeat;
-/*background-color: rgba(0,0,0,0.8);*/
-background-size: 100%;
-width: 100%;
-height: 1200px;
-background-attachment: fixed;
-text-overflow: clip;
-
-
+    background: url('../images/laptop.jpg') no-repeat;
+    /*background-color: rgba(0,0,0,0.8);*/
+    background-size: 100%;
+    width: 100%;
+    height: 1200px;
+    background-attachment: fixed;
+    text-overflow: clip;
 }
 
 .portfolio {
-	background-color: gray;
-	background-size: 100%;
-width: 100%;
-height: 1200px;
-background-attachment: fixed;
-text-overflow: clip;
+    background: gray no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1200px;
+    background-attachment: fixed;
+    text-overflow: clip;
 }
 
-h2, h1, h3{
-	letter-spacing: 10px;
-
+h2,
+h1,
+h3 {
+    letter-spacing: 10px;
 }
 
 .header {
-background-size: 100%;
-width: 100%;
-height: 1080px;
+    background-size: 100%;
+    width: 100%;
+    height: 1080px;
 }
 
 .progress {
-	border-radius: 0px;
-	margin-bottom: 10px;
-
-
+    border-radius: 0px;
+    margin-bottom: 10px;
 }
 
 .progress-bar {
-	height: 70%;
-	font-size: 60%;
-	line-height: 15px;
-	padding-bottom: 0px;
-
+    height: 70%;
+    font-size: 60%;
+    line-height: 15px;
+    padding-bottom: 0px;
 }
 
 .container-fluid {
-	padding: 0px;
+    padding: 0px;
 }
+
+.year {
+    color: #00D646;
+    font: normal normal normal 16px/1.4em avenir-lt-w01_85-heavy1475544, sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.company {
+    font: normal normal normal 24px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
+}
+
+.job {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.description {
+    color: #BEC7D5;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.left {
+    text-align: right;
+    border-right: solid #00D646;
+    padding-right: 50px;
+}
+
+.right {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#drock {
+    margin-right: 10px;
+}
+
+.experience {
+    background-image: url("../images/snow.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 1200px;
+    background-attachment: fixed;
+}
+
+.contact {
+    background-color: #333b50;
+    padding: 30px 30px 30px 30px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+#name,
+#email {
+    width: 151px;
+}
+
+#subject,
+#message,
+.btn {
+    width: 319px;
+}
+
+#field1 {
+    display: flex;
+}
+
+#name {
+    margin-right: 18px;
+}
+
+.form-control {
+    margin-right: 0px;
+}
+
